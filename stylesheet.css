@@ -7,12 +7,18 @@ body{
   padding: 0;
   border: none;
   width: 100%;
-  max-width: 720px;
+  max-width: 850px;
   margin: 0 auto;
-  background-color: #gray;
+  background-color: #193441;
   text-decoration: none !important;
   padding: 40px 0px 40px 0px;
+  color: #FCFFF5;
+  font-family: 'Merriweather', serif;
+}
 
+body a{
+  color: #D1DBBD;
+  text-decoration: none !important;
 }
 
 /*==============================*\
@@ -21,6 +27,11 @@ Top Section
 
 #header{
   text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#header img{
+  float: right;
 }
 
 #name{
@@ -45,3 +56,6 @@ border-style:  Section
 .container a{
   font-style: italic;
 }
+
+
+
