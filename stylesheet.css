@@ -9,16 +9,43 @@ body{
   width: 100%;
   max-width: 850px;
   margin: 0 auto;
-  background-color: #78B5C6;
+  background-color: #3C3C3C;
   text-decoration: none !important;
   padding: 40px 0px 40px 0px;
-  color: #3C3C3C;
+  color: #F9F9F9;
   font-family: 'Roboto', serif;
 }
 
 body a{
-  color: #C14E42;
   text-decoration: none !important;
+}
+
+ul {
+ list-style-type: circle;
+}
+
+.lightBlue{
+  color: #78B5C6;
+}
+
+.mustard{
+  color: #E5BD57;
+}
+
+.lightGray{
+  color: #F9F9F9;
+}
+
+.brickRed{
+  color: #C14E42;
+}
+
+.darkGray{
+  color: #3C3C3C;
+}
+
+.margin-right-small{
+  margin:5px;
 }
 
 /*==============================*\
