@@ -1,5 +1,5 @@
 /*==============================*\
-General style
+General Style
 \*==============================*/
 
 body{
@@ -30,7 +30,6 @@ Top Section
   font-family: 'Raleway', sans-serif;
 }
 
-
 #links{
   text-align: center;
   margin: 0 auto;
@@ -38,7 +37,7 @@ Top Section
 }
 
 #links a{
-  padding-right: 15px;
+  padding-right: 15  px;
 }
 
 #name{
@@ -67,6 +66,3 @@ Body Section
 .floatRight{
   float: right;
 }
-
-
-
