@@ -1,19 +1,12 @@
 angular.module('home', [
-  'ui.router'
+  'ngRoute'
   ])
-.config(function($stateProvider, $urlRouterProvider) {
-  $urlRouterProvider.otherwise('/');
-
-  $stateProvider
-
-  // HOME STATES AND NESTED VIEWS ========================================
-  .state('home', {
-      url: '/home',
+.config(function($routeProvider) {
+  $routeProvider
+    .when('/', {
       templateUrl: 'app/about/about.html'
-  })
-
-  .state('contact', {
-    url: '/contact',
-    templateUrl: 'app/contact/contact.html'
-  })
+    })
+    .when('/contact', {
+      templateUrl: 'app/contact/contact.html'
+    })
 })
