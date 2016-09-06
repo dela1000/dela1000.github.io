@@ -6,6 +6,7 @@
   "author": "Daniel",
   "license": "ISC",
   "dependencies": {
+    "angular-ui-router": "^0.3.1",
     "body-parser": "^1.4.3",
     "cors": "^2.7.1",
     "express": "^4.4.5",
