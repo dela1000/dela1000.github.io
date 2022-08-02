@@ -67,6 +67,11 @@ Top Section
   padding-right: 15  px;
 }
 
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
 #name{
   font-size: 64px;
   font-weight: bold;
